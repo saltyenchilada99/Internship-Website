@@ -1,0 +1,282 @@
+
+#home-page{
+	background-image: url("building-refurbished.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-size: 15vh;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin: -10px;
+	font-family: Impact;
+	color: #EEA91D;
+	text-shadow: 10px 10px #000000;
+
+}
+
+body{
+	background: linear-gradient(90deg, #0C563F 0%, #ffffff 50%, #E0AD28 100%);
+}
+
+#intro-text-border{
+	background-image: url("concrete-wall-backdrop.avif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 15rem;
+	text-align: center;
+	text-shadow: 5px 5px #000000;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: -10px;
+	margin-right: -10px;	
+}
+
+#intro-text{
+	font-size: 48px;
+	color: white;
+	padding: 1.75%;
+	font-family: Impact;
+	color: #EEA91D;
+
+}
+
+#page-headings{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	gap: 100px;
+}
+
+.headings{
+	width: 35vw;
+	height: 75vh;
+	transition: 3s;
+	opacity: 0.5;
+}
+
+.headings:hover{
+	width: 58vw;
+	height: 78vh;
+	opacity: 1;
+	text-align: left;
+}
+
+
+#wet-side-text{
+	position: absolute;
+	top: 60rem;
+	left: 20%;
+	z-index: 2;
+	font-size: 72px;
+	font-family: Impact;
+  	background: -webkit-linear-gradient(360deg, #db3903 30%, #f7b406 50%, #ff00b5 70%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	cursor: default;
+	filter: drop-shadow(5px 5px #000);
+	transition: 3s;
+	
+}
+
+
+#dry-side-text{
+	position: absolute;
+	top: 60rem;
+	left: 63%;
+	z-index: 2;
+	font-size: 72px;
+	font-family: Impact;
+  	background: -webkit-linear-gradient(360deg, #db3903 30%, #f7b406 50%, #ff00b5 70%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(5px 5px #000);
+	cursor: default;
+}
+
+#wet-side{
+	background-image: url("besser-wet-side.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#dry-side{
+	background-image: url("besser-dry-side-refurbished.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+#division-logo {
+	margin-bottom: 5em;
+}
+
+
+.bottom-pictures{
+	width: 20%;
+	display: inline;
+	margin-right: 5%;
+	margin-left: 5%;
+	justify-content: center;
+}
+
+.center{
+	text-align: center;
+}
+
+#side-heading{
+	font-size: 72px;
+	text-align: center;
+	color: white;
+	padding: 1.75%;
+	font-family: Impact;
+	color: #EEA91D;
+	text-shadow: 5px 5px #000000;
+}	
+
+#procedure-text-border{
+	background-image: url("concrete-wall-backdrop.avif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	width: 60%;
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2rem;
+}
+
+.procedure-title{
+	font-size: 48px;
+	padding: 1.75%;
+	font-family: Impact;
+	color: #EEA91D;
+	text-shadow: 5px 5px #000000;
+}
+
+.seperator{
+	height: 0.5rem;
+	width: 85%;
+	background-color: white;
+	margin: 2rem auto 0px;
+}
+
+.link-list {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	gap: 100px;
+	margin-bottom: 4em;
+}
+
+.procedure-link{
+	background-color: #EEA91D;
+	color: black;
+	font-family: Impact;
+	font-size: 20px;
+	padding: 1.5em;
+	transition: 0.5s;
+	border: 3px solid black;
+	margin: -2em 0;
+}
+
+.procedure-link:hover{
+	background-color: black;
+	color: white;
+}
+
+#procedure-background{
+	background-image: url("concrete-wall-backdrop.avif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	width: 95%;
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2rem;
+}
+
+.slide{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	gap: 25px;
+	margin-top: 1.5rem;
+}
+	
+
+.step-title{
+	font-size: 32px;
+	padding: 1.75%;
+	font-family: Impact;
+	color: #071ce0;
+	text-shadow: 5px 5px #e202f2;
+	text-align: left;
+}
+
+li{
+	text-align: left;
+}
+
+.step-border{
+	border: red solid 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 2.5%;
+	height: 80%;	
+}
+
+.step-text{
+	font-size: 24px;
+	padding: 2.5%;
+	font-family: Impact;
+	color: #EEA91D;
+	text-shadow: 5px 5px #000000;
+}
+
+.Pictures{
+	margin-top: 6em;
+}
+
+#intro-pic{
+	height: 30rem;
+}
+#small{
+	height: 7rem;
+}
+#medium{
+	height: 15rem;
+}
+#large{
+	height: 25rem;
+}
+#very-large{
+	height: 40rem;
+}
+#possible-scenarios{
+	height: 40rem;
+	margin-bottom: 5em;
+}
+#link-slide{
+	margin-bottom: 5em;
+}
+
+/*For Besser-Setup Appendix*/
+.appendix{
+	transform: rotate(270deg);
+}
+
+#custom{
+	height: 60rem;
+	margin: -5em 0em;
+}
