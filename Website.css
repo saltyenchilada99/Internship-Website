@@ -141,7 +141,7 @@ a{
 
 #procedure-text-border{
 	background-image: url("concrete-wall-backdrop.avif");
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-size: cover;
 	height: auto;
 	width: 60%;
