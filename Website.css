@@ -21,16 +21,15 @@ body{
 
 #intro-text-border{
 	background-image: url("concrete-wall-backdrop.avif");
-	background-repeat: repeat-y;
-	background-size: 100%;
-	height: auto;
-	width: 60%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 15rem;
 	text-align: center;
-	margin-top: 3rem;
-	margin-bottom: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 2rem;	
+	text-shadow: 5px 5px #000000;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: -10px;
+	margin-right: -10px;	
 }
 
 #intro-text{
@@ -195,8 +194,8 @@ a{
 
 #procedure-background{
 	background-image: url("concrete-wall-backdrop.avif");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-repeat: repeat-y;
+	background-size: 100%;
 	height: auto;
 	width: 95%;
 	text-align: center;
